@@ -1,0 +1,12 @@
+.contact_card-bottom--inner { padding: 36px 20px 45px; background: #000; color: #fff; justify-content: center; align-items: center; gap: 20px; line-height: 1; }
+.card_link a { font-size: 20px; }
+.card-text--brand { font-size: 16px; }
+.contact_cards.site_flex.site_gap { justify-content: center; }
+.contact_card { flex: 1; }
+.contact_image { width: 100%; }
+@media (max-width:820px) {
+ .contact_cards.site_flex.site_gap { flex-direction: column; }
+ }
+@media (max-width:768px) {
+ .contact_card-bottom--inner { padding: 20px; }
+ }
