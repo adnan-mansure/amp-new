@@ -17,7 +17,7 @@ interface WorkSpaceItem {
 
 const WorkSpaceData = WorkSpaceDataRaw as WorkSpaceItem[];
 
-// Animation configuration
+
 const ANIMATION_CONFIG = {
   SCROLL_SPEED: 1.5,
   LERP_FACTOR: 0.05,
