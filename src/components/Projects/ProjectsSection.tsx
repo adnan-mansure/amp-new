@@ -215,7 +215,7 @@ export default function ProjectsSection() {
                         alt={data.heading}
                         ref={(el) => setItemRef(el, index)}
                         decoding="async"
-                        width={800} // Placeholder values to help with Next.js or direct img
+                        width={800} 
                         height={450}
                       />
                     </div>
