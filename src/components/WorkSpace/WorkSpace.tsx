@@ -266,8 +266,8 @@ function WorkSpace() {
     };
   }, [initializeSliderData, setupScrollTrigger, checkMobile, cleanup]);
 
-  // Create infinite loops for data
-  const extendedData = [];
+
+  const extendedData: any[] = [];
   for (let i = 0; i < ANIMATION_CONFIG.COPIES_MULTIPLIER; i++) {
     WorkSpaceData.forEach((item, index) => {
       extendedData.push({ ...item, uniqueKey: `${i}-${index}` });
